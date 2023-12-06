@@ -1,4 +1,4 @@
-# My Projects Portfolio
+# ProjectHub
 
 ## React + Vite
 
