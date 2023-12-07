@@ -26,12 +26,22 @@ const Container = styled.div`
 
 const StyledCard = styled.div`
   width: 32.5rem;
-  border-radius: var(--border-radius-md);
   overflow: hidden;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: var(--color-grey-0);
+  box-shadow: var(--shadow-md);
+  border-radius: var(--border-radius-md);
+
   display: flex;
   flex-direction: column;
   margin-bottom: 0.8rem;
+
+  @media (max-width: 330px) {
+    width: 28rem;
+  }
+
+  @media (max-width: 300px) {
+    width: 25rem;
+  }
 `;
 
 const Banner = styled.div`
@@ -72,6 +82,14 @@ const Description = styled.div`
 
 const DescriptionContainer = styled.div`
   width: 32.5rem;
+
+  @media (max-width: 330px) {
+    width: 27rem;
+  }
+
+  @media (max-width: 300px) {
+    width: 25rem;
+  }
 `;
 
 const StyledButton = styled.button`
@@ -121,9 +139,6 @@ function Project({ project }) {
 
         <Img src={image} />
         <StyledButtons>
-          {/* <Button variation="secondary" size="small">
-            Menu
-          </Button> */}
           <StyledButton onClick={toggleDescription}>
             {isDescriptionVisible ? <HiOutlineMinus /> : <HiOutlinePlus />}
           </StyledButton>

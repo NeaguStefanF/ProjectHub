@@ -8,6 +8,10 @@ const StyledDiv = styled.div`
   @media (max-width: 460px) {
     padding: 0 4rem;
   }
+
+  @media (max-width: 330px) {
+    padding: 0 2rem;
+  }
 `;
 
 function Projects() {

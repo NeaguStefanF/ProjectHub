@@ -8,7 +8,7 @@ This project is a small portfolio application that allows users to perform CRUD 
 
 ## Features
 
-Card Display: Projects are displayed as cards on the main page, featuring a title, link, image, and 2 buttons: a button with a menu for editing and deleting and a button for showing description
+Card Display: Projects are displayed as cards on the main page in a grid, featuring a title, link, image, and 2 buttons: a button with a menu for editing and deleting and a button for showing description
 
 CRUD Operations: Users can perform CRUD operations on projects, allowing them to create new projects, view project details, update existing projects, and delete projects.
 
