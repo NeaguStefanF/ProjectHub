@@ -24,6 +24,18 @@ const Form = styled.form`
       @media (max-width: 650px) {
         width: 30rem;
       }
+
+      @media (max-width: 330px) {
+        width: 28rem;
+      }
+
+      @media (max-width: 300px) {
+        width: 25rem;
+      }
+
+      @media (max-width: 290px) {
+        width: 23rem;
+      }
     `} 
     
   overflow: hidden;
